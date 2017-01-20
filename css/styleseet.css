@@ -1,0 +1,163 @@
+html {
+  font-family:sans-serif;
+}
+header{
+  background-image: url("../img/header.jpg");
+  height: 200px;
+  margin-top: 0%;
+  font-size: 60px;
+}
+h1#main_title{
+  color: white;
+  font-size: 60px;
+  padding-top: 45px;
+  padding-left: 9%;
+}
+body{
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  background-color: #FAEBD7;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+small {
+  font-size: 12px;
+  float:right;
+  margin-right: 2%;
+}
+.comment small {
+  font-size: 10px;
+  float: right;
+}
+/*input[type="text"] {
+-webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+-moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}*/
+#content{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  background-color: white;
+}
+.navbar {
+  text-align:center;
+  height: 40px;
+  width: 100%;
+  margin:0 auto;
+  list-style:none;
+  background-color: #333;
+  top: 0;
+  position: fixed;
+}
+.navbar ul {
+  font-size: 0;
+  display:block;
+  margin: 0;
+}
+.navbar li {
+  float:left;
+}
+.navbar li + li {
+  margin-left:25px;
+}
+
+
+.sbt {
+  background-color: #333;
+  width: 130px;
+  height: 20px;
+  color: #fff;
+  border: solid 1px;
+}
+.sbt:hover {
+  background: #fff;
+  color: #333;
+  border: solid 1px #333;
+  transition: all 0.5s;
+}
+.sbt:active {
+  background: #c00;
+  color: #fff;
+}
+.from {
+}
+
+#content li {
+  list-style: none;
+  margin-bottom: 3px;
+}
+ul label {
+  margin-right: 10px;
+  width:100px;
+  float: left;
+}
+.blog_content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+/*
+.button
+http://www.nxworld.net/tips/css-only-button-design-and-hover-effects.html
+を引用
+*/
+.button {
+  display: inline-block;
+  width: 200px;
+  /*height: 50px;*/
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: #59b1eb;
+}
+/*
+見出し
+http://www.nxworld.net/tips/50-css-heading-styling.html
+を引用
+*/
+#content h1 {
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 19px;
+}
+.text{
+  padding-left: 4%;
+}
+.comment {
+  margin-left: 4%;
+  margin-bottom: 10px;
+  margin-right: 4%;
+}
